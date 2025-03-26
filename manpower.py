@@ -128,6 +128,7 @@ def main():
             /* Hide the Streamlit top bar */
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
+            footer {visibility: hidden;}
             .stApp {
                 margin-top: -18px; /* Adjust to remove the empty space left by the hidden header */
             }
