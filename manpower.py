@@ -33,7 +33,6 @@ def get_db_connection():
             password=os.getenv("MYSQL_PASSWORD"),
             database=os.getenv("MYSQL_DATABASE"),
             ssl_ca=os.getenv("MYSQL_SSL_CA"),  # Path to Aiven CA certificate
-            ssl_verify_cert=True
         )
         return connection
     except mysql.connector.Error as err:
